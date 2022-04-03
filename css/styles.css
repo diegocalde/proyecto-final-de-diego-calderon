@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.encabezado, h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 20px; }
+
+h1 {
+  color: crimson;
+  font-family: 'Marcellus SC', serif; }
+
+h2 {
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Marcellus SC', serif; }
+  h2 img {
+    margin: 20px; }
+  h2 p {
+    margin: 20px;
+    color: #dc143c;
+    font-family: 'Ramaraja', serif; }
+
+table {
+  margin: 20px;
+  padding: 10px; }
+  table img {
+    margin: 20px; }
+  table p {
+    margin: 20px;
+    color: #dc143c;
+    font-family: 'Ramaraja', serif; }
+
+img {
+  margin: 20px;
+  padding: 10px; }
+  img img {
+    margin: 20px; }
+  img p {
+    margin: 20px;
+    color: #dc143c;
+    font-family: 'Ramaraja', serif; }
+
+p {
+  margin: 20px;
+  padding: 10px; }
+  p img {
+    margin: 20px; }
+  p p {
+    margin: 20px;
+    color: #dc143c;
+    font-family: 'Ramaraja', serif; }
+
+a {
+  text-decoration: none; }
+
+.pie {
+  display: inline-flex;
+  padding: 10px; }
+
+.pie p {
+  margin: 5px;
+  text-decoration: underline;
+  color: crimson; }
+
+.pie iframe {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: red;
+  margin: 5px; }
+
+.pie :hover img {
+  transform: translate(10px, -20px); }
+
+.pie a {
+  margin: 5px; }
+
+.pie div {
+  justify-content: center; }
+
+.nosostros div {
+  display: inline-block; }
+
+.consultas form {
+  margin: 10px;
+  background-image: url(../imagenes/concrete_wall.png);
+  border-style: double;
+  border-radius: 1px;
+  border-color: #dc143c; }
