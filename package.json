@@ -1,15 +1,23 @@
 {
   "name": "tercera-entrega-del-proyecto-de-calderon-diego",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1","build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1","build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegocalde/tercera-entrega-de-proyecto.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/diegocalde/tercera-entrega-de-proyecto/issues"
+  },
+  "homepage": "https://github.com/diegocalde/tercera-entrega-de-proyecto#readme",
+  "description": "",
+  "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }

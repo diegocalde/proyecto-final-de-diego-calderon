@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../imagenes/concrete_wall.png); }
+  body .encabezado {
+    background-image: url(../imagenes/keys-geb8c22d4c_1280.jpg);
+    width: auto; }
+  body .encabezado h1 {
+    font-family: 'Gelasio', serif;
+    text-align: center;
+    color: crimson; }
+  body .encabezado img {
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: black;
+    padding: auto;
+    margin-bottom: 10px; }
+  body .encabezado img:hover {
+    transform: skew(20deg, 20deg); }
+  body .index h2 {
+    text-align: center;
+    color: crimson;
+    font-family: 'Gelasio', serif; }
+  body .index img {
+    padding: 20px;
+    margin: 20px; }
+  body .index p {
+    color: white;
+    font-family: 'Orbitron', sans-serif; }
+  body .index ul {
+    display: flex;
+    justify-content: center; }
+  body .pie {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 3px;
+    margin: 10px; }
+  body .pie span {
+    color: white;
+    font-size: larger; }
+  body .pie :hover img {
+    transform: translate(10px, -20px); }
+  body p {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #000000;
+    border-radius: 5 px;
+    border-color: white; }
+    body p p {
+      color: #ffffff; }
+
+/*aqui finaliza index*/
+/* empieza contacto*/
+.contacto {
+  margin: 20px;
+  background-image: url(../imagenes/formulario.jpg);
+  border-style: solid;
+  border-color: crimson; }
+  .contacto h1 {
+    font-family: 'Gelasio', serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: opaco;
+    animation-iteration-count: infinite; }
+
+@keyframes opaco {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .contacto h2 {
+    color: white;
+    font-family: 'Gelasio', serif;
+    margin: 10px; }
+  .contacto h2:hover {
+    color: black; }
+  .contacto .somos text-center img:hover {
+    transform: translate(20px, 30px); }
+
+body ul {
+  display: flex;
+  justify-items: center;
+  justify-content: center; }
+
+body nav {
+  margin: 10px; }
+
+/* empieza nosotros*/
+.nos {
+  background-image: url(../imagenes/teamwork-g137acc111_1280.jpg); }
+  .nos header h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background: radial-gradient(circle, white, green, blue);
+    margin: 20px; }
+  .nos header img {
+    margin: 10px;
+    padding-bottom: 50px;
+    padding-top: 5px; }
+  .nos header img:hover {
+    transform: rotate(30deg); }
+  .nos .nosotros {
+    display: flex;
+    justify-content: space-between; }
+
+/* aqui empieza servis*/
+.servis {
+  background-image: url(../imagenes/oil-g2c6dbdb02_1280.jpg); }
+  .servis .oficial h1 {
+    margin: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: black; }
+  .servis .oficial h1:hover {
+    color: white; }
+  .servis .oficial img {
+    margin: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .servis .oficial img:hover {
+    transform: scale(1.1, 1.1); }
+  .servis .mantenimiento {
+    margin: 20px;
+    padding: 20px; }
+  .servis .mantenimiento ul {
+    padding: 20px; }
+
+/* aqui empieza pagina de error*/
+.error {
+  background-image: url(../imagenes/not-found-g86704bc92_1280.jpg);
+  width: 90%; }
+  .error .falla h1 {
+    margin: 50px;
+    font-family: 'Gelasio', serif;
+    color: red;
+    text-align: center; }
+  .error .advertencia, .error card {
+    margin: 10px; }
